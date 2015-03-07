@@ -7,6 +7,8 @@
 body {
 	font-family: 'Lato', sans-serif;
 	background: url(../img/pattern.jpg) fixed repeat #de9c27;
+	color: #000;
+	font-size: 16px;
 }
 
 header {
@@ -27,6 +29,18 @@ a, a:hover {
 }
 a strong {
 	color: #de9c27;
+}
+
+a.pdf-link {
+	padding: 8px;
+	transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-webkit-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		-moz-transition: background 0.5s;
+}
+a.pdf-link:hover {
+	background: #eeeded;
 }
 /*
 	
@@ -170,7 +184,7 @@ a strong {
 .content-panel h2 {
 	margin: 0 0 10px 0;
 	padding: 0 0 10px 0;
-	font-weight: 100;
+	font-weight: 300;
 	border-bottom: 1px solid #d55928;
 }
 
