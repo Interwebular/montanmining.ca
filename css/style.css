@@ -12,7 +12,11 @@ body {
 }
 
 header {
-	background: #fff;
+	background: url(../img/header-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	position: relative;
 }
 .container {
@@ -25,13 +29,15 @@ header {
 a, a:hover {
 	color: #000;
 	text-decoration: none;
-	display: block;
 }
 a strong {
 	color: #de9c27;
 }
 
 a.pdf-link {
+	color: #000;
+	text-decoration: none;
+	display: block;
 	padding: 8px;
 	transition: background 0.5s;
 		-o-transition: background 0.5s;
@@ -41,6 +47,14 @@ a.pdf-link {
 }
 a.pdf-link:hover {
 	background: #eeeded;
+}
+
+.social-media {
+	font-size: 50px;
+	margin-right: 8px;
+}
+.content-panel .inner p {
+	font-weight: 300;
 }
 /*
 	
@@ -57,13 +71,15 @@ a.pdf-link:hover {
 */
 
 #logo {
-	width: 150px;
+	width: 160px;
+	background: #fff;
+	padding: 10px;
 
 }
 
 .slogan {
 	position: absolute;
-	right: 40px;
+	right: 30px;
 	top: 50%;
 	transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
@@ -79,16 +95,21 @@ a.pdf-link:hover {
 		-o-transition: top 0.5s, left 0.5s, right 0.5s;
 		-webkit-transition: top 0.5s, left 0.5s, right 0.5s;
 		-ms-transition: top 0.5s, left 0.5s, right 0.5s;
+
+	/* background: #fff;
+	padding: 10px 40px 10px 10px; */
+	color: #fff;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
 
 .slogan span {
-	color: #de9c27;
+	
 	font-style: italic;
 }
 
 .corp-id {
 	position: absolute;
-	bottom: 0px; left: 52px;
+	bottom: 0px; left: 56px;
 	display: block;
 	padding: 5px 15px;
 	background: #de9c27;
@@ -110,7 +131,7 @@ a.pdf-link:hover {
 	right: 0px; top: 0px;
 	display: block;
 	padding: 5px 15px;
-	color: #de9c27;
+	color: #fff;
 }
 
 	@media (max-width:768px) {
