@@ -213,11 +213,14 @@ a.pdf-link:hover {
 
 .content-panel p {
 	font-weight: 300;
+
+}
+
+.content-panel p.j-i {
 	text-align: justify;
     text-justify: inter-word;
     text-indent: 50px;
 }
-
 
 .person { margin-top: 20px; }
 .person h3 { font-size: 20px; margin: 0 0 10px 0; }
