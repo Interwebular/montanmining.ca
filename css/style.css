@@ -213,6 +213,9 @@ a.pdf-link:hover {
 
 .content-panel p {
 	font-weight: 300;
+	text-align: justify;
+    text-justify: inter-word;
+    text-indent: 50px;
 }
 
 
