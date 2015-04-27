@@ -63,6 +63,14 @@ a.pdf-link:hover {
 */
 
 
+.fotorama {
+	padding: 10px;
+	background: #222;
+}
+
+
+
+
 
 /*
 	
@@ -197,6 +205,7 @@ a.pdf-link:hover {
 }
 	.content-panel.left  { margin-right: 10px; }
 	.content-panel.right { margin-left: 10px; }
+	.content-panel.gallery { background: #222; }
 
 	@media (max-width:992px) {
 		.content-panel.left  { margin-right: 0; }
@@ -215,12 +224,20 @@ a.pdf-link:hover {
 	font-weight: 300;
 
 }
+.content-panel.gallery p { color: #fff; }
+.content-panel.gallery h2 { color: #fff; border-bottom: none; margin: 0 0 0 20px; padding: 0 0 0 0; }
+.content-panel.gallery .inner { padding: 20px; }
+
 
 .content-panel p.j-i {
 	text-align: justify;
     text-justify: inter-word;
     text-indent: 50px;
 }
+.content-panel p.j {
+		text-align: justify;
+    text-justify: inter-word;
+} 
 
 .person { margin-top: 20px; }
 .person h3 { font-size: 20px; margin: 0 0 10px 0; }
