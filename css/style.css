@@ -1,5 +1,5 @@
 /*
-	
+
 	GLOBAL
 
 */
@@ -12,10 +12,9 @@ body {
 }
 
 header {
-	background: url(../img/header-bg.jpg);
+	background: url(../img/ReySalomonPanoramic.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
 }
@@ -64,7 +63,7 @@ a.pdf-link img {
 	font-weight: 300;
 }
 /*
-	
+
 	END: GLOBAL
 
 */
@@ -80,7 +79,7 @@ a.pdf-link img {
 
 
 /*
-	
+
 	HEADER
 
 */
@@ -118,7 +117,7 @@ a.pdf-link img {
 }
 
 .slogan span {
-	
+
 	font-style: italic;
 }
 
@@ -177,7 +176,7 @@ a.pdf-link img {
 			height: 150px;
 		}
 		.corp-id {
-			bottom: 0; 
+			bottom: 0;
 			left: 0;
 			display: block;
 			padding: 5px 15px;
@@ -244,7 +243,7 @@ a.pdf-link img {
 .content-panel p.j {
 		text-align: justify;
     text-justify: inter-word;
-} 
+}
 
 .person { margin-top: 20px; }
 .person h3 { font-size: 20px; margin: 0 0 10px 0; }
@@ -258,5 +257,3 @@ a.pdf-link img {
 	top: 50%;
 	left: 50%;
 }
-
-
